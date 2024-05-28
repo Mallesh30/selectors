@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.left-nav {
+  display: flex;
+  font-size: 40px;
+  gap: 40px;
+  align-items: center;
+  margin-left: 90px;
+}
+.nav-items:hover {
+  color: orange;
+}
+.nav-list {
+  display: flex;
+  gap: 70px;
+  list-style: none;
+  margin-top: 40px;
+}
+.nav-items:hover {
+  color: orange;
+  text-decoration: underline orange;
+}
+.nav {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  height: 130px;
+}
+
+.section-cards {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  max-width: 25rem;
+  padding: 50px;
+  margin: 60px 60px;
+}
+
+.img {
+  position: relative;
+}
+.img-text {
+  position: absolute;
+  top: 70%;
+  font-size: 20px;
+  margin-left: 130px;
+}
